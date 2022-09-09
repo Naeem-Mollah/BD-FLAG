@@ -1,0 +1,55 @@
+.{
+padding: 0;
+margin: 0;
+}
+
+.green{
+	width: 700px;
+	height: 350px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 180px;
+	height: 180px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 22%;
+	left: 35%;
+	z-index: 1;
+}
+.fb{
+	width: 200px;
+	position: fixed;
+	top: 50%;
+	right: -133px;
+	transition: 1s;
+}
+.fb :hover{
+	right: -2px;
+}
+
+
+.in{
+	width: 200px;
+	position: fixed;
+	top: 65%;
+	right: -133px;
+	transition: 1s;
+}
+.in :hover{
+	right: -2px;
+}
+
+
+.tw{
+	width: 200px;
+	position: fixed;
+	top: 80%;
+	right: -133px;
+	transition: 1s;
+}
+.tw :hover{
+	right: -2px;
+}
